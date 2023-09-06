@@ -6,7 +6,7 @@ const WorldTimeComponent = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentNorwayTime(new Date());
-        }, 1000); // Update the time every second
+        }, 60000); // Update the time every second
 
         return () => {
             clearInterval(intervalId);
@@ -20,59 +20,52 @@ const WorldTimeComponent = () => {
     };
 
     const cities = [
-        { name: 'Anchorage', offset: -8 },
-        { name: 'Los Angeles', offset: -7 },
-        { name: 'Denver', offset: -6 },
-        { name: 'Mexico City', offset: -5 },
-        { name: 'New York', offset: -4 },
-        { name: 'Buenos Aires', offset: -3 },
-        { name: 'London', offset: 0 },
-        { name: 'Paris', offset: 1 },
-        { name: 'Moscow', offset: 3 },
-        { name: 'Dubai', offset: 4 },
-        { name: 'Athens', offset: 2 },
-        { name: 'Mumbai', offset: 5.5 },
-        { name: 'Bangkok', offset: 7 },
-        { name: 'Hong Kong', offset: 8 },
-        { name: 'Tokyo', offset: 9 },
-        { name: 'Sydney', offset: 10 },
-        { name: 'Honolulu', offset: -10 },
-        { name: 'Samoa', offset: -11 },
-        { name: 'Pago Pago', offset: -11 },
-        { name: 'Baker Island', offset: -12 },
-        { name: 'Midway Atoll', offset: -11 },
-        { name: 'Pitcairn Islands', offset: -8 },
-        { name: 'Kiritimati', offset: 14 },
-        { name: 'Enderbury', offset: 13 },
-        { name: 'Wake Island', offset: 12 },
-        { name: 'Tarawa', offset: 12 },
-        { name: 'Majuro', offset: 12 },
-        { name: 'Kwajalein', offset: 12 },
-        { name: 'Auckland', offset: 12 },
-        { name: 'Tongatapu', offset: 13 },
-        { name: 'Apia', offset: 13 },
-        { name: 'Nuku`alofa', offset: 13 },
-        { name: 'Fakaofo', offset: 13 },
-        { name: 'Kiritimati', offset: 14 },
-        { name: 'Funafuti', offset: 12 },
-        { name: 'Tuvalu', offset: 12 },
-        { name: 'Baker Island', offset: -12 },
-        { name: 'Wake Island', offset: 12 },
-        { name: 'Howland Island', offset: -11 },
-        { name: 'Midway Atoll', offset: -11 },
-        { name: 'Niue', offset: -11 },
-        { name: 'Alofi', offset: -11 },
-        { name: 'Penrhyn', offset: -10 },
-        { name: 'Niue', offset: -11 },
-        { name: 'Pago Pago', offset: -11 },
-        { name: 'Avarua', offset: -10 },
-        { name: 'Rarotonga', offset: -10 },
-        { name: 'Hawaii', offset: -10 },
-        { name: 'Honolulu', offset: -10 },
-        { name: 'Adak', offset: -9 },
-        { name: 'Nome', offset: -8 },
-        { name: 'Anchorage', offset: -8 },
-        { name: 'Juneau', offset: -8 },
+        { name: 'Anchorage, USA', offset: -8 },
+        { name: 'Los Angeles, USA', offset: -7 },
+        { name: 'Denver, USA', offset: -6 },
+        { name: 'Mexico City, Mexico', offset: -5 },
+        { name: 'New York, USA', offset: -4 },
+        { name: 'Buenos Aires, Argentina', offset: -3 },
+        { name: 'Azores, Portugal', offset: -2 },
+        { name: 'London, UK', offset: 0 },
+        { name: 'Paris, France', offset: 1 },
+        { name: 'Athens, Greece', offset: 2 },
+        { name: 'Moscow, Russia', offset: 3 },
+        { name: 'Dubai, UAE', offset: 4 },
+        { name: 'Mumbai, India', offset: 5.5 },
+        { name: 'Kathmandu, Nepal', offset: 5.75 },
+        { name: 'Bangkok, Thailand', offset: 7 },
+        { name: 'Hong Kong, Hong Kong', offset: 8 },
+        { name: 'Tokyo, Japan', offset: 9 },
+        { name: 'Sydney, Australia', offset: 10 },
+        { name: 'Pago Pago, American Samoa', offset: -11 },
+        { name: 'Baker Island, US Minor Outlying Islands', offset: -12 },
+        { name: 'Midway Atoll, US Minor Outlying Islands', offset: -11 },
+        { name: 'Baker Island, US Minor Outlying Islands', offset: -12 },
+        { name: 'Honolulu, USA', offset: -10 },
+        { name: 'Nome, USA', offset: -8 },
+        { name: 'San Francisco, USA', offset: -7 },
+        { name: 'Denver, USA', offset: -6 },
+        { name: 'Chicago, USA', offset: -5 },
+        { name: 'New York, USA', offset: -4 },
+        { name: 'Rio de Janeiro, Brazil', offset: -3 },
+        { name: 'Azores, Portugal', offset: -2 },
+        { name: 'London, UK', offset: 0 },
+        { name: 'Brussels, Belgium', offset: 1 },
+        { name: 'Athens, Greece', offset: 2 },
+        { name: 'Moscow, Russia', offset: 3 },
+        { name: 'Dubai, UAE', offset: 4 },
+        { name: 'Karachi, Pakistan', offset: 5 },
+        { name: 'Kolkata, India', offset: 5.5 },
+        { name: 'Yangon, Myanmar', offset: 6.5 },
+        { name: 'Bangkok, Thailand', offset: 7 },
+        { name: 'Hong Kong, Hong Kong', offset: 8 },
+        { name: 'Tokyo, Japan', offset: 9 },
+        { name: 'Sydney, Australia', offset: 10 },
+        { name: 'Pago Pago, American Samoa', offset: -11 },
+        { name: 'Baker Island, US Minor Outlying Islands', offset: -12 },
+        { name: 'Honolulu, USA', offset: -10 },
+        { name: 'Anchorage, USA', offset: -8 },
     ];
 
     const findCityWithTime = () => {
@@ -84,7 +77,7 @@ const WorldTimeComponent = () => {
         if (matchingCities.length === 0) {
             return { name: 'Fuck me dude, idk, but in Norway it is', offset: 0 }
         }
-        return matchingCities[0];
+        return matchingCities[Math.floor(Math.random() * matchingCities.length)];
     };
 
     const matchingCity = findCityWithTime();
