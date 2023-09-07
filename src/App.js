@@ -7,6 +7,10 @@ const JUST_LIKE_THAT_WEEKEND_GONE = "https://images.prismic.io/friday-marketing/
 const I_SMELL_THE_WEEKEND = "https://www.digitalmomblog.com/wp-content/uploads/2021/10/smell-weekend-meme.jpg"
 const STAY_STRONG_WEEKEND_SOON = "https://facultyloungers.com/cdn/shop/articles/Weekend-soon-baby-teacher-meme.jpg"
 const FINALLY_WEEKEND = "https://www.meme-arsenal.com/memes/b224e236c2f4b3afac4755fa819c149e.jpg"
+const REALIZING_ITS_TUESDAY = "https://media.tenor.com/YQBpwdjkwZsAAAAd/pam-tuesday.gif"
+const MICHAEL_SCOTT_DANCE = "https://media1.giphy.com/media/oUZDGQg4XNotM6SvH0/giphy.gif?cid=ecf05e47knvg0c4yeoo2reqhe6uxlv84ng5e6q75a5bybgin&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+const WOAH_HALFWAY_THERE = "https://i.pinimg.com/736x/cc/49/2c/cc492c3c4ce663df412c159a49db5e17.jpg"
+const DRUMROLL = "https://i.giphy.com/media/CLCT8BXR1T2oyBYilM/giphy.webp"
 const Weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 const TimeZoneDisplayer = () => {
@@ -42,9 +46,14 @@ function App() {
       setImgurl(JUST_LIKE_THAT_WEEKEND_GONE)
     }
 
+    // Is it tuesday?
+    else if (today.getDay() === 2 && (today.getMinutes() % 10 === 0)) {
+      setImgurl(REALIZING_ITS_TUESDAY)
+    }
+
     // Is it wednesday after noon?
     else if (today.getDay() === 3 && today.getHours() >= 12) {
-      setImgurl(STAY_STRONG_WEEKEND_SOON)
+      setImgurl(WOAH_HALFWAY_THERE)
     }
 
     // Is it Thursday?
@@ -57,9 +66,19 @@ function App() {
       setImgurl(STAY_STRONG_WEEKEND_SOON)
     }
 
+    // Is it friday just before 16?
+    else if (today.getDay() === 5 && today.getHours() >= 12 && today.getHours() < 16 && today.getMinutes() > 58) {
+      setImgurl(DRUMROLL)
+    }
+
     // Is it friday after noon?
     else if (today.getDay() === 5 && today.getHours() >= 12 && today.getHours() < 16) {
       setImgurl(I_SMELL_THE_WEEKEND)
+    }
+
+    // Or is it friday after 16?
+    else if (today.getDay() === 5 && today.getHours() >= 16 && today.getMinutes() < 5) {
+      setImgurl(MICHAEL_SCOTT_DANCE)
     }
 
     // Or is it friday after 16?
@@ -133,15 +152,20 @@ function App() {
 
 
   return (
-    <div style={{ alignItems: 'center', display: 'flex', flexDirection: 'column', padding: 20, backgroundColor: '#282c34', minHeight: '100vh' }}>
-      {!!!isWeekend && <>
+    <div style={{ alignItems: 'center', justifyContent: 'flex-start', display: 'flex', flexDirection: 'column', padding: 20, backgroundColor: '#282c34', minHeight: '100vh' }}>
+      {!!!isWeekend ? <>
         <h1 style={{ color: '#bbbbbb' }}>{`Percentage towards weekend: ${(percentage * 100).toFixed(2)}%`}</h1>
         <div style={{ width: '100%', border: '3px solid #bbbbbb', borderRadius: 10, overflow: 'hidden', backgroundColor: '#282c34' }}>
           <div style={{ width: `${(percentage * 100)}%`, height: 50, backgroundColor: blendColor(percentage) }}></div>
         </div>
-      </>}
+      </>
+        :
+        <div style={{ color: '#bbbbbb', fontSize: 40, marginBottom: 0, paddingBottom: 0 }}>
+          <h1>WOHOOO WEEKEND</h1>
+        </div>
+      }
       {imgurl && <div style={{ height: '60vh' }}>
-        <img src={imgurl} style={{ maxHeight: '60vh', maxWidth: '80vw', height: '100%', border: '3px solid #bbbbbb', borderRadius: 10, overflow: 'hidden', marginTop: 50, objectFit: 'cover' }} />
+        <img src={imgurl} style={{ maxHeight: '60vh', maxWidth: '80vw', height: '100%', border: '3px solid #bbbbbb', borderRadius: 10, overflow: 'hidden', marginTop: 40, objectFit: 'cover' }} />
       </div>}
       <WorldTimeComponent />
 
