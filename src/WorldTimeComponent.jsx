@@ -6,7 +6,7 @@ const WorldTimeComponent = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentNorwayTime(new Date());
-        }, 60000); // Update the time every second
+        }, 10000); // Update the time every second
 
         return () => {
             clearInterval(intervalId);
@@ -52,7 +52,7 @@ const WorldTimeComponent = () => {
             return cityTime.getHours() === targetHour;
         });
         if (matchingCities.length === 0) {
-            return { name: 'Fuck me dude, idk, but in Norway it is', offset: 0 }
+            return { name: 'fuck me dude, idk, but in Norway it is', offset: 0 }
         }
         return matchingCities[0];
     };
