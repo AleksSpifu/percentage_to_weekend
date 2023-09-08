@@ -67,7 +67,7 @@ function App() {
     }
 
     // Is it friday just before 16?
-    else if (today.getDay() === 5 && today.getHours() >= 12 && today.getHours() < 16 && today.getMinutes() > 58) {
+    else if (today.getDay() === 5 && today.getHours() === 15 && today.getMinutes() > 58) {
       setImgurl(DRUMROLL)
     }
 
