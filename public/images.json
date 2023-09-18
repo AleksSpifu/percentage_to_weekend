@@ -4,10 +4,19 @@
       "Name": "Just like that, weekend gone",
       "StartHour": 8,
       "StartMinute": 0,
+      "EndHour": 10,
+      "EndMinute": 30,
+      "IsGif": false,
+      "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
+    },
+    {
+      "Name": "Just checking",
+      "StartHour": 10,
+      "StartMinute": 30,
       "EndHour": 16,
       "EndMinute": 0,
       "IsGif": false,
-      "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
+      "URL": "https://media.tenor.com/ow7gvjgJ7UoAAAAC/just-checking-pulp-fiction.gif"
     }
   ],
   "Tuesday": [
