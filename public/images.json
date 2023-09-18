@@ -5,14 +5,23 @@
       "StartHour": 8,
       "StartMinute": 0,
       "EndHour": 12,
-      "EndMinute": 30,
+      "EndMinute": 0,
       "IsGif": false,
       "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
     },
     {
-      "Name": "Happy monday",
+      "Name": "It's monday again",
       "StartHour": 12,
-      "StartMinute": 30,
+      "StartMinute": 0,
+      "EndHour": 14,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://lolalambchops.com/wp/wp-content/uploads/2023/01/Funniest-Monday-Memes.jpg"
+    },
+    {
+      "Name": "Happy monday",
+      "StartHour": 14,
+      "StartMinute": 0,
       "EndHour": 24,
       "EndMinute": 0,
       "IsGif": false,
