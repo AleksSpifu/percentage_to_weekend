@@ -1,0 +1,115 @@
+{
+  "Monday": [
+    {
+      "Name": "Just like that, weekend gone",
+      "StartHour": 8,
+      "StartMinute": 0,
+      "EndHour": 12,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
+    }
+  ],
+  "Tuesday": [
+    {
+      "Name": "Realizing its only tuesday",
+      "StartHour": 8,
+      "StartMinute": 0,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": true,
+      "URL": "https://media.tenor.com/YQBpwdjkwZsAAAAd/pam-tuesday.gif"
+    }
+  ],
+  "Wednesday": [
+    {
+      "Name": "Woah halfway there",
+      "StartHour": 12,
+      "StartMinute": 0,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://i.pinimg.com/736x/cc/49/2c/cc492c3c4ce663df412c159a49db5e17.jpg"
+    }
+  ],
+  "Thursday": [
+    {
+      "Name": "Stay strong weekend soon",
+      "StartHour": 8,
+      "StartMinute": 0,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://facultyloungers.com/cdn/shop/articles/Weekend-soon-baby-teacher-meme.jpg"
+    }
+  ],
+  "Friday": [
+    {
+      "Name": "Stay strong weekend soon",
+      "StartHour": 8,
+      "StartMinute": 0,
+      "EndHour": 12,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://facultyloungers.com/cdn/shop/articles/Weekend-soon-baby-teacher-meme.jpg"
+    },
+    {
+      "Name": "I smell the weeknd",
+      "StartHour": 12,
+      "StartMinute": 0,
+      "EndHour": 15,
+      "EndMinute": 59,
+      "IsGif": false,
+      "URL": "https://www.digitalmomblog.com/wp-content/uploads/2021/10/smell-weekend-meme.jpg"
+    },
+    {
+      "Name": "Drumroll",
+      "StartHour": 15,
+      "StartMinute": 59,
+      "EndHour": 16,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://i.giphy.com/media/CLCT8BXR1T2oyBYilM/giphy.webp"
+    },
+    {
+      "Name": "Michael Scott Dance",
+      "StartHour": 16,
+      "StartMinute": 0,
+      "EndHour": 16,
+      "EndMinute": 10,
+      "IsGif": false,
+      "URL": "https://media1.giphy.com/media/oUZDGQg4XNotM6SvH0/giphy.gif?cid=ecf05e47knvg0c4yeoo2reqhe6uxlv84ng5e6q75a5bybgin&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    },
+    {
+      "Name": "Finally weekend",
+      "StartHour": 16,
+      "StartMinute": 10,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://www.meme-arsenal.com/memes/b224e236c2f4b3afac4755fa819c149e.jpg"
+    }
+  ],
+  "Saturday": [
+    {
+      "Name": "Finally weekend",
+      "StartHour": 0,
+      "StartMinute": 0,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://www.meme-arsenal.com/memes/b224e236c2f4b3afac4755fa819c149e.jpg"
+    }
+  ],
+  "Sunday": [
+    {
+      "Name": "Finally weekend",
+      "StartHour": 0,
+      "StartMinute": 0,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://www.meme-arsenal.com/memes/b224e236c2f4b3afac4755fa819c149e.jpg"
+    }
+  ]
+}
