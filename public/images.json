@@ -4,26 +4,8 @@
       "Name": "Just like that, weekend gone",
       "StartHour": 8,
       "StartMinute": 0,
-      "EndHour": 10,
-      "EndMinute": 20,
-      "IsGif": false,
-      "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
-    },
-    {
-      "Name": "Ten twenty",
-      "StartHour": 10,
-      "StartMinute": 20,
-      "EndHour": 10,
-      "EndMinute": 21,
-      "IsGif": false,
-      "URL": "https://www.tentwenty.co/img/logo.png"
-    },
-    {
-      "Name": "Ten twentyone",
-      "StartHour": 10,
-      "StartMinute": 20,
-      "EndHour": 10,
-      "EndMinute": 21,
+      "EndHour": 16,
+      "EndMinute": 0,
       "IsGif": false,
       "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
     }
