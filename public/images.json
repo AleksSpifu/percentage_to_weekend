@@ -22,10 +22,37 @@
       "Name": "Happy monday",
       "StartHour": 14,
       "StartMinute": 0,
-      "EndHour": 24,
+      "EndHour": 15,
       "EndMinute": 0,
       "IsGif": false,
       "URL": "https://www.digitalmomblog.com/wp-content/uploads/2018/05/happy-monday-meme.jpeg"
+    },
+    {
+      "Name": "Monday is almost over",
+      "StartHour": 15,
+      "StartMinute": 0,
+      "EndHour": 16,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://pbs.twimg.com/media/DKlMcG6W4AA_8a8.jpg"
+    },
+    {
+      "Name": "Running home",
+      "StartHour": 16,
+      "StartMinute": 0,
+      "EndHour": 16,
+      "EndMinute": 5,
+      "IsGif": false,
+      "URL": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejZvbTZ0OHM0M2hmcmV1eGdveDZrNnI2b3l6ZGd2MnB2bXZvaWpoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iEpSWGGS0iqLvNhsv5/giphy.gif"
+    },
+    {
+      "Name": "Still here?",
+      "StartHour": 16,
+      "StartMinute": 5,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://media.makeameme.org/created/are-you-still-798fe557fd.jpg"
     }
   ],
   "Tuesday": [
