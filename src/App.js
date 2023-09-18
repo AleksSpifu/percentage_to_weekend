@@ -27,7 +27,7 @@ function App() {
   const [imgurl, setImgurl] = useState(null)
 
   const updateImage = async () => {
-    const res = await fetch("https://raw.githubusercontent.com/AleksSpifu/percentage_to_weekend/main/public/images.json")
+    const res = await fetch("https://raw.githubusercontent.com/AleksSpifu/percentage_to_weekend/main/public/images.json", { cache: "no-store" })
     const json = await res.json()
     const todaysImages = json[Weekdays[today.getDay()]]
     const todaysHoursInFloat = today.getHours() + (today.getMinutes() / 60)
