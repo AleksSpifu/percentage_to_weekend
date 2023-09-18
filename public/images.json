@@ -4,10 +4,19 @@
       "Name": "Just like that, weekend gone",
       "StartHour": 8,
       "StartMinute": 0,
-      "EndHour": 16,
-      "EndMinute": 0,
+      "EndHour": 12,
+      "EndMinute": 30,
       "IsGif": false,
       "URL": "https://images.prismic.io/friday-marketing/5469e8fd-6de1-482f-88db-ec69d0c139f8_funny-weekend-memes-48-720x847.jpg"
+    },
+    {
+      "Name": "Happy monday",
+      "StartHour": 12,
+      "StartMinute": 30,
+      "EndHour": 24,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://www.digitalmomblog.com/wp-content/uploads/2018/05/happy-monday-meme.jpeg"
     }
   ],
   "Tuesday": [
