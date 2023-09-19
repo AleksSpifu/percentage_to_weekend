@@ -71,7 +71,7 @@
       "StartMinute": 30,
       "EndHour": 24,
       "EndMinute": 0,
-      "IsGif": true,
+      "IsGif": false,
       "URL": "https://i.pinimg.com/736x/4d/83/24/4d8324c440db16cf9956e4f013e74eef.jpg"
     }
   ],
