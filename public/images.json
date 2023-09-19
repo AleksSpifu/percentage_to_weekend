@@ -60,10 +60,19 @@
       "Name": "Realizing its only tuesday",
       "StartHour": 8,
       "StartMinute": 0,
+      "EndHour": 12,
+      "EndMinute": 30,
+      "IsGif": true,
+      "URL": "https://media.tenor.com/YQBpwdjkwZsAAAAd/pam-tuesday.gif"
+    },
+    {
+      "Name": "Stay awesome",
+      "StartHour": 12,
+      "StartMinute": 30,
       "EndHour": 24,
       "EndMinute": 0,
       "IsGif": true,
-      "URL": "https://media.tenor.com/YQBpwdjkwZsAAAAd/pam-tuesday.gif"
+      "URL": "https://i.pinimg.com/736x/4d/83/24/4d8324c440db16cf9956e4f013e74eef.jpg"
     }
   ],
   "Wednesday": [
