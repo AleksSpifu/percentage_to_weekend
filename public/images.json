@@ -77,13 +77,31 @@
   ],
   "Wednesday": [
     {
+      "Name": "It's wednesday my dudes",
+      "StartHour": 7,
+      "StartMinute": 0,
+      "EndHour": 12,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://i.kym-cdn.com/entries/icons/facebook/000/020/016/wednesdaymydudeswide.jpg"
+    },
+    {
       "Name": "Woah halfway there",
       "StartHour": 12,
       "StartMinute": 0,
+      "EndHour": 13,
+      "EndMinute": 30,
+      "IsGif": false,
+      "URL": "https://i.pinimg.com/736x/cc/49/2c/cc492c3c4ce663df412c159a49db5e17.jpg"
+    },
+    {
+      "Name": "Nothing ruins friday more than realizing its wednesday",
+      "StartHour": 13,
+      "StartMinute": 30,
       "EndHour": 24,
       "EndMinute": 0,
       "IsGif": false,
-      "URL": "https://i.pinimg.com/736x/cc/49/2c/cc492c3c4ce663df412c159a49db5e17.jpg"
+      "URL": "https://i.pinimg.com/originals/e6/e6/7c/e6e67c778ca14e2d9cd5c4ecc0eaac4e.jpg"
     }
   ],
   "Thursday": [
