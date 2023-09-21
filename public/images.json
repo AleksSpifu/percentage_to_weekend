@@ -115,8 +115,17 @@
       "URL": "https://static.wikia.nocookie.net/24cf5142-0e57-40fc-bd60-4cab55b9d5b3/scale-to-width/755"
     },
     {
+      "Name": "Day four hostage",
+      "StartHour": 14,
+      "StartMinute": 0,
+      "EndHour": 18,
+      "EndMinute": 0,
+      "IsGif": false,
+      "URL": "https://pbs.twimg.com/media/E8nLj1tUUAEFaGN.jpg"
+    },
+    {
       "Name": "Stay strong weekend soon",
-      "StartHour": 16,
+      "StartHour": 18,
       "StartMinute": 0,
       "EndHour": 24,
       "EndMinute": 0,
